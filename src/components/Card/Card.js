@@ -5,7 +5,7 @@ const Card = (data) => {
       <div className="title">
         <h1 className="title">{data.title}</h1>
       </div>
-      <img className="image" src={data.image} alt="image" />
+      <img src={data.image} alt="img" />
       <div className="card-over">
         <p>{data.desc}</p>
       </div>
